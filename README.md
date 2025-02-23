@@ -40,3 +40,12 @@ source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
+```
+### Note: Ensure you have your OpenAI API key ready. If you dont have one, visit [OpenAI](https://platform.openai.com/docs/overview) to create an account and get your API key.
+
+# Step 2: Environment Configuration
+
+Create a .env file in the root of the project with the following content:
+```bash
+OPENAI_API_KEY=your_openai_api_key_here
+```
