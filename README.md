@@ -21,20 +21,22 @@ Gradio: A Python-based UI library that allows users to interact with machine lea
 
 Before starting, ensure you have installed all the software in the RAG/requirements.txt () file:
 ## Installation Steps:
-### Clone the repository
+```bash
+# Clone the repository
 git clone https://github.com/pngimbwa/rag_hands_on_training.git
 
-### Navigate to the RAG directory
+# Navigate to the RAG directory
 cd rag_hands_on_training/RAG
 
-### Create a virtual environment
+# Create a virtual environment
 python -m venv venv
 
-### Activate the virtual environment
-### Windows
-'\venv\Scripts\activate'
-### Mac/Linux
+# Activate the virtual environment
+# Windows
+venv\Scripts\activate
+
+# Mac/Linux
 source venv/bin/activate
 
-### Install dependencies
+# Install dependencies
 pip install -r requirements.txt
