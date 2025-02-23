@@ -1,4 +1,4 @@
-Step 1: Prerequisites
+# Step 1: Prerequisites
 
 Before starting, ensure you have the following installed:
 
