@@ -17,6 +17,13 @@ OpenAI: The provider of the GPT-4o model, which powers the chatbot's ability to 
 
 Gradio: A Python-based UI library that allows users to interact with machine learning models through an easy-to-use web interface.
 
+# Troubleshooting Tips
+1. API Errors: Verify the API key in .env.
+
+2. Dependency Issues: Run pip install --upgrade pip and retry installing.
+
+3. Document Not Indexed: Ensure PDFs are in the docs/ folder before running the app.
+
 # Step 1: Prerequisites
 
 Before starting, ensure you have installed all the software in the RAG/requirements.txt () file:
