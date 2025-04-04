@@ -19,8 +19,13 @@ from uuid import uuid4
 
 # Load environment  variables (e.g., OpenAI API key)
 from dotenv import load_dotenv
+import os
 import re  # For file parsing
 
+# Clear any existing environment variable to isolate the .env file
+if "OPENAI_API_KEY" in os.environ:
+    del os.environ["OPENAI_API_KEY"]
+    
 # Load environment variables from .env file
 load_dotenv()
 
