@@ -27,6 +27,10 @@ from fuzzywuzzy import process
 # Load the .env file from the parent directory
 env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env")
 
+# Clear any existing environment variable to isolate the .env file
+if "OPENAI_API_KEY" in os.environ:
+    del os.environ["OPENAI_API_KEY"]
+
 # Load environment variables from .env file
 load_dotenv(dotenv_path=env_path)
 
